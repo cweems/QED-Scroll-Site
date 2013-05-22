@@ -1,19 +1,8 @@
-jQuery Parallax
-===============
+This is a simple scrolling parallax project that uses several js packages to create a dynamic web page. 
+Supporting code packages inherit their share-alike licenses.
 
-jQuery Parallax is a script that simulates the parallax effect as seen on [nikebetterworld.com](http://www.nikebetterworld.com/).
-
-Plugin: jQuery Parallax  
-Version: 1.1.1  
-Author: [Ian Lunn](http://www.ianlunn.co.uk/)  
-Demo: [jQuery Vertical Parallax Demo](http://www.ianlunn.co.uk/plugins/jquery-parallax/)  
-Tutorial: [Nikebetterworld Parallax Effect Demo](http://www.ianlunn.co.uk/blog/code-tutorials/recreate-nikebetterworld-parallax/)  
-
-Dual licensed under the MIT and GPL licenses:
-http://www.opensource.org/licenses/mit-license.php
-http://www.gnu.org/licenses/gpl.html
-
-Updates
--------
-
-26/10/2011 - Updated to work with jQuery 1.6.4
+1. jQuery v1.8.2 jquery.com | jquery.org/license
+2. jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
+3. scrolldeck - jQuery scrolldeck to create a vertically scrolling presentation deck by John Polacek (@johnpolacek)
+4. scrollorama - The jQuery plugin for doing cool scrolly stuff by John Polacek (@johnpolacek)
+5. jquery.scrollto Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
