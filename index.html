@@ -63,6 +63,19 @@ $(document).ready(function(){
 			</ul>
 	</div>
 	</div>
+	<div class="mobile-navigation">
+		<h1 id="kdmd-title">KDMD</h1>
+	<div class="nav-spacer">	
+		<ul id="nav">
+			<li><a href="#intro" title="Next Section">Introduction</a></li>
+			<li><a href="#second" title="Next Section">Text</a></li>
+			<li><a href="#third" title="Next Section">Videos</a></li>
+			<li><a href="#fifth" title="Next Section">Figures</a></li>
+			<li><a href="#sixth" title="Next Section">Images</a></li>
+			<li><a href="#seventh" title="Next Section">Grid</a></li>
+		</ul>
+	</div>
+	</div>
 <div class="slide-wrapper">
 	<div id="intro" class="slide">
 		<div class="story">
@@ -70,9 +83,7 @@ $(document).ready(function(){
 			<h2>Introduction</h2>
 	        <p>This is a simple test of a Parallax JavaScrips site.</p>
 		<p>This slide will demonstrate the types of effects that can be implemented with scrolldeck.js.</p>
-	</br>
-		<p class="animate-in"  data-animation="fly-in-left">Javascript allows for the creation of dynamic content that changes in tandem with a user's interaction with the site. For example, this slide offsets the background during a scroll action in order to create a parallax effect.</p>
-	        </div>
+	    </div>
 	    </div> <!--.story-->
 	</div> <!--#intro-->
 	
@@ -96,7 +107,7 @@ $(document).ready(function(){
 		<div class="story">
 	    	<div class="float-left animate-in" data-animation="fly-in-right">
 	    	
-	        	<iframe width="770" height="500" src="http://www.youtube.com/embed/w-6Mw0zS0QY" frameborder="0" allowfullscreen></iframe>
+	        	<iframe width="100%" height="60%" src="http://www.youtube.com/embed/w-6Mw0zS0QY" frameborder="0" allowfullscreen></iframe>
 	        	
 	        </div>
 
@@ -188,7 +199,8 @@ $(document).ready(function(){
 	</div> <!--#sixth-->
 	
 	<div id="seventh" class="slide">
-		<div class="story">
+		<div class="story" id="grid">
+			<div class="float-left">
 	       	<div id="test" class="grid_1">1</div> <div id="test" class="grid_11 omega">11</div>
 			<div id="test" class="grid_2">2</div> <div id="test" class="grid_10 omega">10</div>
 			<div id="test" class="grid_3">3</div> <div id="test" class="grid_9 omega">9</div>
@@ -201,6 +213,7 @@ $(document).ready(function(){
 			<div id="test" class="grid_10">10</div> <div id="test" class="grid_2 omega">2</div>
 			<div id="test" class="grid_11">11</div> <div id="test" class="grid_1 omega">1</div>
 			<div id="test" class="grid_12">12</div>
+			</div>
 	    </div> <!--.story-->
 	</div> <!--#seventh-->
 </div>
