@@ -294,7 +294,7 @@ Slide 1
 	background:url(images/image1.jpg) 50% -75px no-repeat fixed;
 	color: black;
 	text-shadow: 0px 0px 19px white; 
-	height: 600px;
+	height: 650px;
 	margin: 0 auto;
 	padding: 160px 0 0 0;
 }
@@ -339,7 +339,7 @@ Slide 3
 
 #third{
 	background: url(images/image3.png) 50% 0 repeat fixed;
-	color: white;
+	color: rgba(255,255,255,0.67);
 	height: 650px;
 	padding: 100px 0px 0px 0px;	
 }
@@ -350,7 +350,7 @@ Slide 4
 
 #fifth{
 	background: url(images/image4.jpg) 50% 0 repeat fixed;
-	height: 1300px;
+	height: 800px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
 }
@@ -448,6 +448,7 @@ Images/Highlights
 .highlight{
 	font-family:"Quicksand" sans-serif;
 	box-shadow: 0px 0px 7px #6f6f6f;
+	width: inherit;
 }
 
 .highlight:hover{
@@ -518,7 +519,7 @@ Grid
 #grid{
 	padding-top: 50px;
 	padding-right: 200px;
-	width: 50%;
+	width: 100%;
 	overflow: hidden;
 }
 

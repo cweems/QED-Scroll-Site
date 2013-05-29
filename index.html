@@ -35,8 +35,9 @@ $(document).ready(function(){
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 	$('#intro').parallax("50%", 0, 0.1, true);
 	$('#second').parallax("50%", 0, 0.1, true);
-	$('.bg').parallax("50%", 2500, 0.4, true);
-	$('#third').parallax("50%", 2750, 0.3, true);
+	$('.bg').parallax("50%", 0, 0.4, true);
+	$('#third').parallax("50%", 0, 0.3, true);
+	$('#seventh').parallax("50%", 2200, 0.3, true);
 	
 	var deck = new $.scrolldeck({
 		slides: '.slide',
@@ -78,7 +79,7 @@ $(document).ready(function(){
 	</div>
 <div class="slide-wrapper">
 	<div id="intro" class="slide">
-		<div class="story"><div class="bg"></div>
+		<div class="story">
 	    	<div class="float-left">
 	            <h2>Dynamic Text</h2>
 	            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
@@ -148,6 +149,7 @@ $(document).ready(function(){
 							title: 'Sample Chart',
 							titleTextStyle: {color: '#468efa', fontName: 'Quicksand', fontSize: 50},
 							colors: ['#00b982', '#468efa'],
+							backgroundColor: '#ffffff',
 							fontName: 'Quicksand',
 							vAxis: {title: 'Year',  titleTextStyle: {color: 'black'}}
 						};
@@ -161,26 +163,14 @@ $(document).ready(function(){
     <div id="chart_div" style="width: 900px; height: 500px;"></div>
   </body>
 			</div> <!--.figure-->
-			<div class="float-left">
-				<div class="figure">
-				<table>
-					<tr>
-						<td>
-							<h1>23</h1>
-						</td>
-						<td>
-							<span>figure sub-title with a bunch of text.</span>
-						</td>
-					</tr>
-				</table>
-				</div>
-			</div> <!--.figure-->
+			
 	    </div> <!--.story-->
 	</div> <!--#fifth-->
 	
 	<div id="sixth" class="slide">
 		<div class="story">
-	       <div class="float-left">
+			<div class="grid_6">
+			<div class="float-left">
 		       <a href="http://www.google.com">
 		       <div class="highlight">
 		       		<img class="highlight-image"src="images/image4.jpg">
@@ -192,7 +182,24 @@ $(document).ready(function(){
 		       			</div>
 		       		</div>
 		       </div>
-		       </a>
+		       </a><!--.highlight-->
+	       </div>
+	       </div>
+	       <div class="grid_6">
+			<div class="float-left">
+		       <a href="http://www.google.com">
+		       <div class="highlight">
+		       		<img class="highlight-image"src="images/image4.jpg">
+		       		<div class="cover">
+		       			<div class="inner-wrapper">
+		       				<div class="all-caps">Most common question</div>
+		       				<div class="big-title">Big Title</div>
+		       				<div class="small-title">Washington, DC</div>
+		       			</div>
+		       		</div>
+		       </div>
+		       </a><!--.highlight-->
+	       </div>
 	       </div>
 	    </div> <!--.story-->
 	</div> <!--#sixth-->
