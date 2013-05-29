@@ -79,8 +79,8 @@ $(document).ready(function(){
 <div class="slide-wrapper">
 	<div id="intro" class="slide">
 		<div class="story">
-	    	<div class="float-left">
-	            <h2>Dynamic Text</h2>
+	    	<div class="float-left" id="slide1-text">
+	            <h3>Dynamic Text</h3>
 	            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
 	        </div>
 	    </div <!--.story-->
@@ -89,7 +89,7 @@ $(document).ready(function(){
 	<div id="second" class="slide">
 		<div class="story"><div class="bg"></div>
 	    	<div class="float-left animate-in"  data-animation="fly-in-left">
-	            <h2>Dynamic Text</h2>
+	            <h3>Dynamic Text</h3>
 	            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
 	            <p class="animate-build" data-build="1" style="opacity: 1; ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	            <p class="animate-build" data-build="2" style="opacity: 1; ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -105,7 +105,7 @@ $(document).ready(function(){
 	<div id="third" class="slide">
 		<div class="story">
 	    	<div class="float-left animate-in" data-animation="fly-in-right">
-	    	
+	    	<h3>Embedding Videos</h3>
 	        	<iframe width="100%" height="60%" src="http://www.youtube.com/embed/w-6Mw0zS0QY" frameborder="0" allowfullscreen></iframe>
 	        	
 	        </div>
@@ -121,48 +121,17 @@ $(document).ready(function(){
 				<table>
 					<tr>
 						<td>
-							<h1>23</h1>
+							<h1>$23K</h1>
 						</td>
 						<td>
 							<span>figure sub-title with a bunch of text.</span>
 						</td>
 					</tr>
 				</table>
-				</div>
-				<!--.chart-->
-				<head>
-					<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-					<script type="text/javascript">
-						google.load("visualization", "1", {packages:["corechart"]});
-						google.setOnLoadCallback(drawChart);
-						function drawChart() {
-							var data = google.visualization.arrayToDataTable([
-							['Year', 'Sales', 'Expenses'],
-							['2004',  1000,      400],
-							['2005',  1170,      460],
-							['2006',  660,       1120],
-							['2007',  1030,      540]
-							]);
-
-						var options = {
-							title: 'Sample Chart',
-							titleTextStyle: {color: '#468efa', fontName: 'Quicksand', fontSize: 50},
-							colors: ['#00b982', '#468efa'],
-							backgroundColor: '#ffffff',
-							fontName: 'Quicksand',
-							vAxis: {title: 'Year',  titleTextStyle: {color: 'black'}}
-						};
-
-        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
-    </script>
-  </head>
-  <body>
-    <div id="chart_div" style="width: 900px; height: 500px;"></div>
-  </body>
-			</div> <!--.figure-->
+				</div> <!--.figure-->
+			</div>
 			
+		
 	    </div> <!--.story-->
 	</div> <!--#fifth-->
 	
@@ -204,22 +173,9 @@ $(document).ready(function(){
 	</div> <!--#sixth-->
 	
 	<div id="seventh" class="slide">
-		<div class="story" id="grid">
-			<div class="float-left">
-	       	<div id="test" class="grid_1">Lets test this out a little bit. How much text can I type here before it starts wrapping?</div> <div id="test" class="grid_11 omega">Lets test this out a little bit. How much text can I type here before it starts wrapping? This column should be wider.</div>
-	       	<br>
-			<div id="test" class="grid_2">2</div> <div id="test" class="grid_10 omega">10</div>
-			<div id="test" class="grid_3">3</div> <div id="test" class="grid_9 omega">9</div>
-			<div id="test" class="grid_4">4</div> <div id="test" class="grid_8 omega">8</div>
-			<div id="test" class="grid_5">5</div> <div id="test" class="grid_7 omega">7</div>
-			<div id="test" class="grid_6">6</div> <div id="test" class="grid_6 omega">6</div>
-			<div id="test" class="grid_7">7</div> <div id="test" class="grid_5 omega">5</div>
-			<div id="test" class="grid_8">8</div> <div id="test" class="grid_4 omega">4</div>
-			<div id="test" class="grid_9">9</div> <div id="test" class="grid_3 omega">3</div>
-			<div id="test" class="grid_10">10</div> <div id="test" class="grid_2 omega">2</div>
-			<div id="test" class="grid_11">11</div> <div id="test" class="grid_1 omega">1</div>
-			<div id="test" class="grid_12">12</div>
-			</div>
+		<div class="story">
+			<div class="float-left animate-in"  data-animation="space-in"><h2>The End!</h2></div>
+			
 	    </div> <!--.story-->
 	</div> <!--#seventh-->
 </div>

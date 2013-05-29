@@ -30,7 +30,6 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 body{
 	margin: 0;
-	min-width: 980px;
 	padding: 0;
 	font-size: 100%;
 	transition:all .2s linear; 
@@ -68,6 +67,17 @@ h2{
 	font-size-adjust:0.531;
 	font-weight:500;
 	font-style:normal;
+}
+
+h3{
+	font-family:"Quicksand", sans-serif;
+	font-size-adjust:0.531;
+	font-weight:500;
+	background: #468efa;
+	color: white;
+	padding: 1%;
+	border-radius: 2px;
+	display: inline-block !important;
 }
 
 #header h1, #pixels{
@@ -291,7 +301,7 @@ Slide 1
 ************************/
 
 #intro{
-	background:url(images/image1.jpg) 50% -75px no-repeat fixed;
+	background:url(images/image1.jpg) 50% -75px repeat;
 	color: black;
 	text-shadow: 0px 0px 19px white; 
 	height: 650px;
@@ -300,8 +310,9 @@ Slide 1
 }
 
 #slide1-text{
-	padding-left: 130px;
+	padding-left: 5%;
 	padding-right: 130px;
+	padding-bottom: 150px;
 	font-size: larger;
 	color: black;
 	background-color: rgba(255,255,255,0.6);
