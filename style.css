@@ -314,7 +314,7 @@ Slide 2
 #second{
 	background: url(images/image2.png) 50% 0 repeat fixed;
 	color: black;
-	height: 650px;
+	height: 1000px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
@@ -325,7 +325,7 @@ Slide 2
 }
 
 #second .bg{
-	height: 650px;
+	height: 1000px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
@@ -372,6 +372,7 @@ Slide 6
 
 #seventh{
 	background-image: url('images/image5.jpg');
+	height: 650px;
 }
 
 /***********************
